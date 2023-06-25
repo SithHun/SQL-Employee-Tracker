@@ -205,11 +205,17 @@ connection.connect((err) => {
         .then((answers) => {
           const employeeId = answers.employee;
           const roleId = answers.role;
+          const departmentId = answers.department;
+          const firstName = answers.first_name;
+          const lastName = answers.last_name;
     
           // Find the employee by ID and update their role
           const employee = employees.find((emp) => emp.id === employeeId);
           if (employee) {
+            employee.first_name = firstName;
+            employee.last_name = lastName;
             employee.role_id = roleId;
+            employee.department_id = departmentId;
             console.log('Employee role updated successfully!');
           } else {
             console.log('Employee not found.');
