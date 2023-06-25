@@ -1,5 +1,5 @@
 const inquirer = require('inquirer');
-const mysql = require('mysql');
+const mysql = require('mysql2');
 
 // Create a MySQL connection
 const connection = mysql.createConnection({
@@ -17,6 +17,8 @@ connection.connect((err) => {
       return;
     }
     console.log('Connected to the database as ID ' + connection.threadId);
+
+    // ---- Inquirer Queries ----
 
 
 // Arrays for departments, roles, and employees
