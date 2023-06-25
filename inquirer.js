@@ -1,4 +1,23 @@
-const inquirer = require("inquirer");
+const inquirer = require('inquirer');
+const mysql = require('mysql');
+
+// Create a MySQL connection
+const connection = mysql.createConnection({
+  host: 'localhost',
+  port: 3001,
+  user: 'root',
+  password: 'root',
+  database: 'employeetracker_db',
+});
+
+// Connect to the database
+connection.connect((err) => {
+    if (err) {
+      console.error('Error connecting to the database: ' + err.stack);
+      return;
+    }
+    console.log('Connected to the database as ID ' + connection.threadId);
+
 
 // Arrays for departments, roles, and employees
 let departments = [
@@ -85,3 +104,8 @@ function addRole() {
       console.log("New role added successfully!");
     });
 }
+
+
+
+
+}); // End of connection
