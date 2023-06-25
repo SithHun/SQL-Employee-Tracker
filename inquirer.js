@@ -170,6 +170,11 @@ connection.connect((err) => {
         name: role.title,
         value: role.id,
       }));
+
+      const departmentChoices = departments.map((department) => ({
+        name: department.name,
+        value: department.id,
+      }));
     
       inquirer
         .prompt([
