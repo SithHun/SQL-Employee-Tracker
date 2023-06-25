@@ -180,12 +180,6 @@ connection.connect((err) => {
             choices: employeeChoices,
           },
           {
-            type: 'list',
-            name: 'role',
-            message: 'Select the new role for the employee:',
-            choices: roleChoices,
-          },
-          {
             type: 'input',
             name: 'first_name',
             message: "Enter the employee's first name:",
@@ -194,6 +188,18 @@ connection.connect((err) => {
             type: 'input',
             name: 'last_name',
             message: "Enter the employee's last name:",
+          },
+          {
+            type: 'list',
+            name: 'role',
+            message: 'Select the new role for the employee:',
+            choices: roleChoices,
+          },
+          {
+            type: 'list',
+            name: 'department',
+            message: "Select the employee's new department:",
+            choices: departmentChoices,
           },
         ])
         .then((answers) => {
