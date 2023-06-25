@@ -41,18 +41,21 @@ let employees = [
 function viewAllDepartments() {
   console.log("All Departments:");
   console.table(departments);
+  returnToMenu();
 }
 
 // Function to display all roles
 function viewAllRoles() {
   console.log("All Roles:");
   console.table(roles);
+  returnToMenu();
 }
 
 // Function to display all employees
 function viewAllEmployees() {
   console.log("All Employees:");
   console.table(employees);
+  returnToMenu();
 }
 
 // Function to add a department
@@ -72,6 +75,7 @@ function addDepartment() {
       };
       departments.push(newDepartment);
       console.log("New department added successfully!");
+      returnToMenu();
     });
 }
 
@@ -104,6 +108,7 @@ function addRole() {
       };
       roles.push(newRole);
       console.log("New role added successfully!");
+      returnToMenu();
     });
 }
 
