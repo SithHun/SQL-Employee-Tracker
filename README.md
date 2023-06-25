@@ -25,7 +25,7 @@ so that I can organize and plan my business.
 ## <ins>**Deployed Application**</ins>
 <br>
 
-* Video Walk-through: [MySQL-Employee-Tracker](#)
+* Video Walk-through: [MySQL-Employee-Tracker](https://youtu.be/pwFY5M-SKzM)
 
 * Github Repo: [SQL-Employee-Tracker](https://github.com/SithHun/SQL-Employee-Tracker)
 
