@@ -185,6 +185,16 @@ connection.connect((err) => {
             message: 'Select the new role for the employee:',
             choices: roleChoices,
           },
+          {
+            type: 'input',
+            name: 'first_name',
+            message: "Enter the employee's first name:",
+          },
+          {
+            type: 'input',
+            name: 'last_name',
+            message: "Enter the employee's last name:",
+          },
         ])
         .then((answers) => {
           const employeeId = answers.employee;
