@@ -31,7 +31,7 @@ so that I can organize and plan my business.
 
 <br>
 
-### <ins>About Me</ins>
+### <ins>*About Me*</ins>
 <br>
 
 > Name: *Sith Hun*
