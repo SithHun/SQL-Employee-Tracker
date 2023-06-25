@@ -25,13 +25,13 @@ so that I can organize and plan my business.
 ## <ins>**Deployed Application**</ins>
 <br>
 
-* Video Walk-through: [MySQL-Employee-Tracker](https://shielded-crag-55388-ba89262db419.herokuapp.com/)
+* Video Walk-through: [MySQL-Employee-Tracker](#)
 
 * Github Repo: [SQL-Employee-Tracker](https://github.com/SithHun/SQL-Employee-Tracker)
 
 <br>
 
-## <ins>*About Me*</ins>
+### <ins>About Me</ins>
 <br>
 
 > Name: *Sith Hun*
