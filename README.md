@@ -34,7 +34,7 @@
 > node inquirer.js
 
 ## Usage
-Running the inquirer.js file will prompt you on options on what to do with the MySQL database. You can choose either to view departments view roles view employees and the options to update or add to respective categories. Exiting the inquirier prompt will exit you out of the server. You must enter your password for your MySQL database in the inquirer.js file under the connection variable.
+Running the inquirer.js file will prompt you on options on what to do with the MySQL database. You can choose either to view departments, view roles, view employees, and the options to update or add to respective categories. Exiting the inquirier prompt will exit you out of the server. ```You must enter your password for your MySQL database in the inquirer.js file under the connection variable.```
 
 
 ## Screenshot/Video
