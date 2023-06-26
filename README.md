@@ -1,7 +1,7 @@
 # SQL-Employee-Tracker
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![inquirer](https://img.shields.io/badge/packages-inquirer-purple.svg) ![console.table](https://img.shields.io/badge/packages-console.table-green.svg) ![database](https://img.shields.io/badge/database-mysql-blue.svg)
 
-### Using MySql to store employee data, users will be able to view, add, and update to track employees of a company.
+Using MySql to store employee data, users will be able to view, add, and update to track employees of a company.
 
 ## Description
 * Created an application using mysql2, inquirer, and console.table.
